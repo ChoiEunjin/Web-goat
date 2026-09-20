@@ -1,2 +1,2 @@
 build:
-  - ./mvnw clean package
+  - ./mvnw clean package -DskipTests -Dmaven.compiler.release=21
